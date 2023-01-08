@@ -24,6 +24,9 @@ namespace Blinky
             // ESP32 DevKit: 4 is a valid GPIO pin in, some boards like Xiuxin ESP32 may require GPIO Pin 2 instead.
             //GpioPin led = s_GpioController.OpenPin(4, PinMode.Output);
 
+            // XAIO ESP32C3 : 10 is a valid GPIO pin
+            //GpioPin led = s_GpioController.OpenPin(10, PinMode.Output);
+
             // FEATHER S2: 
             //GpioPin led = s_GpioController.OpenPin(13, PinMode.Output);
 
